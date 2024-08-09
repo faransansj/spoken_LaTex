@@ -112,10 +112,21 @@
     {"pattern": "\\\\end{pmatrix}", "replacement": "end parentheses matrix"},
     {"pattern": "\\\\det", "replacement": "determinant of "},
     {"pattern": "\\\\left\\{(.+?)\\\\right\\}", "replacement": "left brace {m.group(1)} right brace"},
-
     {"pattern": "\\\\pm", "replacement": "plus minus"},
     {"pattern": "\\\\in", "replacement": "in"},
     {"pattern": "\\\\nin", "replacement": "not in"},
-    {"pattern": "\\\\bar", "replacement": "overline"}
-
+    {"pattern": "\\\\bar", "replacement": "overline"},
+    {"pattern": "\\\\bf", "replacement": "bold "},
+    {"pattern": "\\\\dagger", "replacement": "dagger"},
+    {"pattern": "\\\\displaystyle", "replacement": "displaystyle "},
+    {"pattern": "\\\\left\\\\lbrace", "replacement": "left brace"},
+    {"pattern": "\\\\right\\\\rbrace", "replacement": "right brace"},
+    {"pattern": "\\\\mathcal{(.+?)}", "replacement": "calligraphic {m.group(1)}"},
+    {"pattern": "\\\\ !", "replacement": " factorial "},
+    {"pattern": "\\\\rec", "replacement": "reciprocal"},
+    {"pattern": "\\\\ge", "replacement": "greater than or equal to "},
+    {"pattern": "\\\\rm", "replacement": "roman "},
+    {"pattern": "\\\\dd", "replacement": "differential "},
+    {"pattern": "\\\\lfloor", "replacement": "left floor"},
+    {"pattern": "\\\\rfloor", "replacement": "right floor"}
 ]
