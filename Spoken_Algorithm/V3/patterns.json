@@ -1,6 +1,6 @@
 [
     {"pattern": "frac{(.+?)}{(.+?)}", "replacement": "{m.group(1)} over {m.group(2)}"},
-    {"pattern": "\\\\sqrt{(.+?)}", "replacement": "sqrt of {m.group(1)}"},
+    {"pattern": "\\\\sqrt{(.+?)}", "replacement": "root of {m.group(1)}"},
     {"pattern": "\\\\left\\((.+?)\\\\right\\)", "replacement": "left parenthesis {m.group(1)} right parenthesis"},
     {"pattern": "\\\\left\\[(.+?)\\\\right\\]", "replacement": "left bracket {m.group(1)} right bracket"},
     {"pattern": "\\\\left\\\\{(.+?)\\\\right\\\\}", "replacement": "left brace {m.group(1)} right brace"},
