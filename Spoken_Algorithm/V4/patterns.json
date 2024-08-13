@@ -134,4 +134,5 @@
     {"pattern": "\\mathbb", "replacement": "blackboard bold font"},
     {"pattern": "\\mathfrak", "replacement": "fraktur font"},
     {"pattern": "\\mathsf", "replacement": "sans serif font"},
+    {"pattern": "\\bm", "replacement": "bold math"}
 ]
